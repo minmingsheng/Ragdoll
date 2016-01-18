@@ -2,14 +2,21 @@
 $font-stack:Roboto, sans-serif;
 $copyFont: 100;
 $primary-color: #312821; 
-$basic-color: #daa44e;
+$nocolor:transparent;
+$basic-color:#daa44e;
 $radius: 10px;
+$testColor1: $nocolor /*rgba(255, 0, 0, 0.3)*/;
+$testColor2: $nocolor /*salmon*/;
+$testColor3: $nocolor /*rgba(135, 206, 235,0.40)*/;
 @mixin nav($color, $height){
 	background:$color;
 	width:100%;
 	height:$height;
 	box-shadow: 1px 1px 12px $primary-color;
+	position: fixed;
+	z-index: 1000;
 }
+
 @mixin marginClear(){
 	margin:0;
 }
@@ -104,9 +111,13 @@ nav{
 
 .page1{
 	clear: both;
+	width:100%;
+	height:100vh;
+	background:$testColor1;
 	div{
 		width: 100%;
 		height: auto;
+
 		position: relative;
 		.cat_head{
 			position: relative;
@@ -145,6 +156,7 @@ nav{
 
 		}
 		.ragdoll_title{
+			width: 160%;
 			margin-top: 120px;
 			z-index: -1;
 			animation: slideDown 800ms 5.7s 1 ease backwards;
@@ -163,7 +175,7 @@ nav{
 			}
 		}
 		.cattery_title{
-			
+			width: 34vw;
 			z-index: -1;
 		}
 		.frame{
@@ -182,4 +194,313 @@ nav{
 	}
 }
 
+.page2{
+	width: 100vw;
+	height: 100vh;
+	background: $testColor2;
+	padding-top: 60px+65px;
+	div{
+		article{
 
+			.bold{
+				font-size: 2em;
+				font-weight: 800;
+			}
+			span{
+				background: $basic-color;
+			}
+			display: block;
+			border:1px dotted $basic-color;
+			max-width:500px;
+			margin:auto;
+			line-height:1.4em;
+			padding:2em;
+		}
+		.illustration_intro{
+			margin-top: 200px;
+			position: relative;
+			width: 100%;
+			height: auto;
+			background: red;
+			img{
+				max-width: 100%;
+				height: auto;
+				position: absolute;
+				display: block;
+				@include around();
+				margin: auto;
+			}
+		}
+	}
+
+}
+.page3{
+	width: 100vw;
+	height: 100vh;
+	background: $testColor3;
+	div{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		.video{
+			width: auto;
+			height: auto;
+		}
+		.leftDoor{
+			width: 60%;
+			height: 100%;
+			float: left;
+			position: relative;
+			img{
+				width: 100%;
+				height: 100%;
+
+			}
+			article{
+				z-index: 300;
+				max-width: 25vh;
+				margin-left: 2em;
+				height: auto;
+				position: absolute;
+				color: $primary-color;
+				border: 1px dotted $primary-color;
+				padding:1.1em;
+				top: 45vh;
+				right:150px;
+			}
+		}
+		.rightDoor{
+			width: 38%;
+			height: 100%;
+			float: right;
+			position: relative;
+			img{
+				width: 100%;
+				height: 100%;
+			}
+			.bicolorPortrait{
+				max-width: 250px;
+				height: auto;
+				position: absolute;
+				transform:translate(-30%, -550px);
+				z-index: -1;
+			}
+			.rotateBtn{
+				width: 20px;
+				height:20px;
+				border: 7px solid $primary-color;
+				border-radius: 50%;
+				border-bottom-color:snow; 
+				position: absolute;
+				top:50vh;
+				left: 20%;
+				transition:background 300ms ease;
+				&:hover{
+					background:rgba(255, 250, 250, 0.4);
+					animation-play-state:paused;
+				}
+				.arrow{
+					width: 10px;
+					height: 10px;
+					/*background: red;*/
+					position: relative;
+					top: -30px;
+					border: 1px solid rgba(255, 250, 250, 0.3);
+					border-bottom-color: transparent;
+					border-left-color: transparent;
+					transform:rotate(135deg);
+					
+				}
+
+
+
+			}
+
+
+		}
+	}
+
+}
+.arrow{
+	animation: opacity 600ms infinite alternate linear;
+}
+@keyframes opacity{
+	from{
+		opacity: 0;
+	}
+}
+.rotateBtn{
+	animation:spin 3s infinite linear;
+}
+@keyframes spin{
+	from{
+		transform:rotate(360deg);
+	}
+}
+.page4{
+	width: 100vw;
+	height: 100vh;
+	background: $testColor3;
+	div{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		.video{
+			width: auto;
+			height: auto;
+		}
+		.leftDoor{
+			width: 60%;
+			height: 100%;
+			float: left;
+			img{
+				width: 100%;
+				height: 100%;
+
+			}
+			article{
+				z-index: 300;
+				max-width: 25vh;
+				margin-left: 2em;
+				height: auto;
+				position: absolute;
+				color: $primary-color;
+				border: 1px dotted $primary-color;
+				padding:1.1em;
+				top: 45vh;
+				right:150px;
+			}
+		}
+		.rightDoor{
+			width: 38%;
+			height: 100%;
+			float: right;
+			position: relative;
+			img{
+				width: 100%;
+				height: 100%;
+			}
+			.colorpointPortrait{
+				max-width: 450px;
+				height: auto;
+				position: absolute;
+				transform:translate(-46%, -550px);
+				z-index: -1;
+			}
+			.rotateBtn{
+				width: 20px;
+				height:20px;
+				border: 7px solid $primary-color;
+				border-radius: 50%;
+				border-bottom-color:snow; 
+				position: absolute;
+				top:50vh;
+				left: 20%;
+				transition:background 300ms ease;
+				&:hover{
+					background:rgba(255, 250, 250, 0.4);
+					animation-play-state:paused;
+				}
+
+			}
+			.arrow{
+				width: 10px;
+				height: 10px;
+				/*background: red;*/
+				position: relative;
+				top: -30px;
+				border: 1px solid rgba(255, 250, 250, 0.3);
+				border-bottom-color: transparent;
+				border-left-color: transparent;
+				transform:rotate(135deg);
+				
+			}
+
+
+		}
+	}
+}
+.page5{
+	width: 100vw;
+	height: 100vh;
+	background: $testColor3;
+	div{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		.video{
+			width: auto;
+			height: auto;
+		}
+		.leftDoor{
+			width: 60%;
+			height: 100%;
+			float: left;
+			img{
+				width: 100%;
+				height: 100%;
+
+			}
+			article{
+				z-index: 300;
+				max-width: 25vh;
+				margin-left: 2em;
+				height: auto;
+				position: absolute;
+				color: $primary-color;
+				border: 1px dotted $primary-color;
+				padding:1.1em;
+				top: 45vh;
+				right:150px;
+
+			}
+		}
+		.rightDoor{
+			width: 38%;
+			height: 100%;
+			float: right;
+			position: relative;
+			img{
+				width: 100%;
+				height: 100%;
+			}
+			.mittedPortrait{
+				max-width: 300px;
+				height: auto;
+				position: absolute;
+				transform:translate(-36%, -550px);
+				z-index: -1;
+			}
+			.rotateBtn{
+				width: 20px;
+				height:20px;
+				border: 7px solid $primary-color;
+				border-radius: 50%;
+				border-bottom-color:snow; 
+				position: absolute;
+				top:50vh;
+				left: 20%;
+				transition:background 300ms ease;
+				&:hover{
+					background:rgba(255, 250, 250, 0.4);
+					animation-play-state:paused;
+				}
+
+			}
+			.arrow{
+				width: 10px;
+				height: 10px;
+				/*background: red;*/
+				position: relative;
+				top: -30px;
+				border: 1px solid rgba(255, 250, 250, 0.3);
+				border-bottom-color: transparent;
+				border-left-color: transparent;
+				transform:rotate(135deg);
+				
+			}
+
+
+		}
+	}
+}
