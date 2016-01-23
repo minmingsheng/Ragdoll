@@ -48,6 +48,27 @@ body {
    	@include paddingC();
 	@include marginClear();
 }
+.subBackground{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	img{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+	.dot1{
+		animation: blur 2s 5.8s  1 ease-out backwards;
+	}
+	.dot2{
+		animation: blur 1s 5.5s 1 backwards;
+	}
+	@keyframes blur{
+		from{
+			-webkit-filter: blur(100px);
+		}
+	}
+}
 nav{
 	@include nav($primary-color,65px);
 	@include marginClear();
@@ -114,6 +135,7 @@ nav{
 	width:100%;
 	height:100vh;
 	background:$testColor1;
+	position: relative;
 	div{
 		width: 100%;
 		height: auto;
@@ -211,7 +233,7 @@ nav{
 			}
 			display: block;
 			border:1px dotted $basic-color;
-			max-width:500px;
+			max-width:800px;
 			margin:auto;
 			line-height:1.4em;
 			padding:2em;
@@ -303,12 +325,13 @@ nav{
 					width: 10px;
 					height: 10px;
 					/*background: red;*/
-					position: relative;
+					position: absolute;
 					top: -30px;
 					border: 1px solid rgba(255, 250, 250, 0.3);
 					border-bottom-color: transparent;
 					border-left-color: transparent;
 					transform:rotate(135deg);
+					/*animation-play-state: paused;*/
 					
 				}
 
@@ -503,4 +526,87 @@ nav{
 
 		}
 	}
+}
+.page6{
+	width: 100vw;
+	height: 100vh;
+	div{
+		
+		.aboutme{
+			width: 80%;
+			min-height: 80%;
+			border:1px dotted $basic-color;
+			margin: 100px auto;
+			position: relative;
+			padding: 50px;
+			article{
+				img{
+					display: block;
+					margin:auto;
+				}
+				span{
+					font-weight: 800;
+					font-size: 3em;
+				}
+				margin: 30px;
+				height: 80%;
+				line-height: 2em;
+				columns :2;
+				column-gap: 100px;
+				-webkit-column-width: 300px;
+				-moz-column-width: 300px;
+				-o-column-width: 300px;
+				column-width: 300px;
+				img{
+				max-width: 300px;
+				max-height: auto;
+				z-index: 1000;
+				}
+			}
+			.fullFamily{
+				max-width: 300px;
+				max-height: 300px;
+				position: relative;
+				transform:scale(1.4);
+				left: 70%;
+				bottom: 15%;
+				img{
+					position: absolute;
+					top: 0;
+				}
+				img:nth-child(1){
+					width: 350px;
+				}
+				img:nth-child(2){
+					width:200px;
+					top: 50px;
+					right: 0;
+				}
+				img:nth-child(3){
+					width: 150px;
+					left:20px;
+					top:70px;
+				}
+			}
+		}
+		footer{
+			width: 100%;
+			height: 10%;
+			border-top: 1px solid $primary-color;
+
+			.social{
+
+				width: 130px;
+				height: auto;
+				margin:20px auto;
+			}
+			p{
+				margin: 0;
+				padding: 0;
+				margin-bottom:2em;
+				text-align: center;
+			}
+		}
+	}
+
 }
