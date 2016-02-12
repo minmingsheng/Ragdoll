@@ -16,7 +16,9 @@ $testColor3: $nocolor /*rgba(135, 206, 235,0.40)*/;
 	position: fixed;
 	z-index: 1000;
 }
-
+body{
+	overflow-x:hidden;
+}
 @mixin marginClear(){
 	margin:0;
 }
@@ -28,6 +30,9 @@ $testColor3: $nocolor /*rgba(135, 206, 235,0.40)*/;
 	bottom:0;
 	left:0;
 	right:0;
+}
+@mixin t($time){
+	transition: all $time ease;
 }
 h1,h2,h3,h4,h5,h6{
 	@include marginClear();
@@ -136,13 +141,17 @@ nav{
 	height:100vh;
 	background:$testColor1;
 	position: relative;
+	@include t(1s);
 	div{
 		width: 100%;
 		height: auto;
 
 		position: relative;
 		.cat_head{
+			@include t(1s);
+			z-index:100;
 			position: relative;
+			transform-origin:50%  200%;
 			img[id*=cathead]{
 				position: absolute;
 				@include around();
@@ -178,6 +187,7 @@ nav{
 
 		}
 		.ragdoll_title{
+			@include t(1s);
 			width: 160%;
 			margin-top: 120px;
 			z-index: -1;
@@ -201,7 +211,9 @@ nav{
 			z-index: -1;
 		}
 		.frame{
+			@include t(1s);
 			position: absolute;
+			transform-origin:center 0%;
 			display: block;
 			width: 100%;
 			height: 300px;
@@ -220,7 +232,15 @@ nav{
 	width: 100vw;
 	height: 100vh;
 	background: $testColor2;
-	padding-top: 60px+65px;
+	padding-top: 0;
+	@include t(2s);
+	.ragdoll_history{
+		
+		transition:all 1s ease;
+		
+		/*transition:opacity 0.5s ease, transform, 1 ease;*/
+		/*opacity:0;*/
+	}
 	div{
 		article{
 
@@ -237,9 +257,10 @@ nav{
 			margin:auto;
 			line-height:1.4em;
 			padding:2em;
+			padding-bottom:200px;
 		}
 		.illustration_intro{
-			margin-top: 200px;
+			
 			position: relative;
 			width: 100%;
 			height: auto;
@@ -250,7 +271,9 @@ nav{
 				position: absolute;
 				display: block;
 				@include around();
-				margin: auto;
+				margin:auto;
+				transform: translateY(150px);
+				@include t(1s);
 			}
 		}
 	}

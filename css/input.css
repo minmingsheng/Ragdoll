@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,700,500italic,700italic,900,900italic);
+body {
+  overflow-x: hidden; }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0; }
 
@@ -107,13 +110,21 @@ nav {
   width: 100%;
   height: 100vh;
   background: transparent;
-  position: relative; }
+  position: relative;
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease; }
   .page1 div {
     width: 100%;
     height: auto;
     position: relative; }
     .page1 div .cat_head {
-      position: relative; }
+      -webkit-transition: all 1s ease;
+              transition: all 1s ease;
+      z-index: 100;
+      position: relative;
+      -webkit-transform-origin: 50%  200%;
+          -ms-transform-origin: 50%  200%;
+              transform-origin: 50%  200%; }
       .page1 div .cat_head img[id*=cathead] {
         position: absolute;
         top: 0;
@@ -154,6 +165,8 @@ nav {
       margin: auto;
       max-width: 800px; }
     .page1 div .ragdoll_title {
+      -webkit-transition: all 1s ease;
+              transition: all 1s ease;
       width: 160%;
       margin-top: 120px;
       z-index: -1;
@@ -185,7 +198,12 @@ nav {
       width: 34vw;
       z-index: -1; }
     .page1 div .frame {
+      -webkit-transition: all 1s ease;
+              transition: all 1s ease;
       position: absolute;
+      -webkit-transform-origin: center 0%;
+          -ms-transform-origin: center 0%;
+              transform-origin: center 0%;
       display: block;
       width: 100%;
       height: 300px;
@@ -203,21 +221,28 @@ nav {
   width: 100vw;
   height: 100vh;
   background: transparent;
-  padding-top: 125px; }
+  padding-top: 0;
+  -webkit-transition: all 2s ease;
+          transition: all 2s ease; }
+  .page2 .ragdoll_history {
+    -webkit-transition: all 1s ease;
+            transition: all 1s ease
+    /*transition:opacity 0.5s ease, transform, 1 ease;*/
+    /*opacity:0;*/ }
   .page2 div article {
     display: block;
     border: 1px dotted #daa44e;
     max-width: 800px;
     margin: auto;
     line-height: 1.4em;
-    padding: 2em; }
+    padding: 2em;
+    padding-bottom: 200px; }
     .page2 div article .bold {
       font-size: 2em;
       font-weight: 800; }
     .page2 div article span {
       background: #daa44e; }
   .page2 div .illustration_intro {
-    margin-top: 200px;
     position: relative;
     width: 100%;
     height: auto;
@@ -231,7 +256,12 @@ nav {
       bottom: 0;
       left: 0;
       right: 0;
-      margin: auto; }
+      margin: auto;
+      -webkit-transform: translateY(150px);
+          -ms-transform: translateY(150px);
+              transform: translateY(150px);
+      -webkit-transition: all 1s ease;
+              transition: all 1s ease; }
 
 .page3 {
   width: 100vw;
