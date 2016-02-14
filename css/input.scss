@@ -249,6 +249,8 @@ nav{
 				font-weight: 800;
 			}
 			span{
+				@include t(1s);
+				opacity: 0;
 				background: $basic-color;
 			}
 			display: block;
@@ -273,7 +275,7 @@ nav{
 				@include around();
 				margin:auto;
 				transform: translateY(150px);
-				@include t(1s);
+				@include t(1.5s);
 			}
 		}
 	}
@@ -287,10 +289,7 @@ nav{
 		width: 100%;
 		height: 100%;
 		position: relative;
-		.video{
-			width: auto;
-			height: auto;
-		}
+
 		.leftDoor{
 			width: 60%;
 			height: 100%;
@@ -300,6 +299,23 @@ nav{
 				width: 100%;
 				height: 100%;
 
+			}
+			.video{
+				width: auto;
+				height: auto;
+				position: absolute;
+				top:130px;
+				bottom:0;
+				left:50px;
+				right: 0;
+				margin:auto;
+				z-index: -1;
+				iframe{
+					border:10px solid $basic-color;
+					max-width: 400px;
+					
+
+				}
 			}
 			article{
 				z-index: 300;
@@ -311,8 +327,33 @@ nav{
 				border: 1px dotted $primary-color;
 				padding:1.1em;
 				top: 45vh;
-				right:150px;
+				right:30%;
+				animation: sA 1s 1 ease;
+				display: none;
 			}
+			.arrowL{
+
+				z-index: 300;
+				width: 10px;
+				height: 10px;
+/*				background: red;*/
+				position: absolute;
+				top: 0;
+				right: 20%;
+				bottom: 0;
+				margin: auto;
+				border: 1px solid $primary-color;
+				@include t(1s);
+				border-bottom-color: transparent;
+				border-right-color: transparent;
+				transform:rotate(315deg);
+				transform-origin:center center;
+				&:hover{
+					cursor:pointer;
+					border-width:3px;
+				}	
+			}
+
 		}
 		.rightDoor{
 			width: 38%;
@@ -383,6 +424,9 @@ nav{
 		transform:rotate(360deg);
 	}
 }
+.leftDoor{
+	transition: all 1s ease;
+}
 .page4{
 	width: 100vw;
 	height: 100vh;
@@ -404,6 +448,23 @@ nav{
 				height: 100%;
 
 			}
+			.video{
+				width: auto;
+				height: auto;
+				position: absolute;
+				top:130px;
+				bottom:0;
+				left:50px;
+				right: 0;
+				margin:auto;
+				z-index: -1;
+				iframe{
+					border:10px solid $basic-color;
+					max-width: 400px;
+					
+
+				}
+			}
 			article{
 				z-index: 300;
 				max-width: 25vh;
@@ -414,8 +475,34 @@ nav{
 				border: 1px dotted $primary-color;
 				padding:1.1em;
 				top: 45vh;
-				right:150px;
+				right:30%;
+				display: none;
+				animation: sA 1s 1 ease;
 			}
+						.arrowL{
+
+							z-index: 300;
+							width: 10px;
+							height: 10px;
+			/*				background: red;*/
+							position: absolute;
+							top: 0;
+							right: 20%;
+							bottom: 0;
+							margin: auto;
+							border: 1px solid $primary-color;
+							@include t(1s);
+							
+							border-bottom-color: transparent;
+							border-right-color: transparent;
+							transform:rotate(315deg);
+							transform-origin:center center;
+							
+							&:hover{
+								cursor:pointer;
+								border-width:3px;
+							}	
+						}
 		}
 		.rightDoor{
 			width: 38%;
@@ -432,7 +519,9 @@ nav{
 				position: absolute;
 				transform:translate(-46%, -550px);
 				z-index: -1;
+				
 			}
+		
 			.rotateBtn{
 				width: 20px;
 				height:20px;
@@ -487,6 +576,23 @@ nav{
 				height: 100%;
 
 			}
+			.video{
+				width: auto;
+				height: auto;
+				position: absolute;
+				top:130px;
+				bottom:0;
+				left:50px;
+				right: 0;
+				margin:auto;
+				z-index: -1;
+				iframe{
+					border:10px solid $basic-color;
+					max-width: 400px;
+					
+
+				}
+			}
 			article{
 				z-index: 300;
 				max-width: 25vh;
@@ -497,9 +603,33 @@ nav{
 				border: 1px dotted $primary-color;
 				padding:1.1em;
 				top: 45vh;
-				right:150px;
+				right:30%;
+				display: none;
+				animation: sA 1s 1 ease;
 
 			}
+						.arrowL{
+
+							z-index: 300;
+							width: 10px;
+							height: 10px;
+			/*				background: red;*/
+							position: absolute;
+							top: 0;
+							right: 20%;
+							bottom: 0;
+							margin: auto;
+							border: 1px solid $primary-color;
+							@include t(1s);
+							transform-origin:center center;
+							border-bottom-color: transparent;
+							border-right-color: transparent;
+							transform:rotate(315deg);
+							&:hover{
+								cursor:pointer;
+								border-width:3px;
+							}	
+						}
 		}
 		.rightDoor{
 			width: 38%;
@@ -622,6 +752,10 @@ nav{
 				width: 130px;
 				height: auto;
 				margin:20px auto;
+				&:hover{
+					cursor:pointer;
+					
+				};
 			}
 			p{
 				margin: 0;
@@ -632,4 +766,12 @@ nav{
 		}
 	}
 
+}
+
+/*animation*/
+@keyframes sA{
+	from{
+		opacity: 0;
+		transform: rotate(30deg) translateY(-1000px) translateX(1000px)
+	}
 }
