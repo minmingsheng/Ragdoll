@@ -30,14 +30,9 @@ body {
     width: 100%;
     height: 100%; }
   .subBackground .dot1 {
-    -webkit-animation: blur 2s 5.8s  1 ease-out backwards;
-            animation: blur 2s 5.8s  1 ease-out backwards; }
+    animation: blur 2s 5.8s  1 ease-out backwards; }
   .subBackground .dot2 {
-    -webkit-animation: blur 1s 5.5s 1 backwards;
-            animation: blur 1s 5.5s 1 backwards; }
-@-webkit-keyframes blur {
-  from {
-    -webkit-filter: blur(100px); } }
+    animation: blur 1s 5.5s 1 backwards; }
 @keyframes blur {
   from {
     -webkit-filter: blur(100px); } }
@@ -48,43 +43,29 @@ nav {
   box-shadow: 1px 1px 12px #312821;
   position: fixed;
   z-index: 1000;
-  margin: 0; }
+  margin: 0;
+  z-index: 1000000; }
   nav ul {
     margin: 0;
     padding: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-align: space-between;
-    -webkit-align-items: space-between;
-        -ms-flex-align: space-between;
-            align-items: space-between;
+    flex-flow: row wrap;
+    align-items: space-between;
     height: 100%; }
     nav ul li {
       box-sizing: border-box;
-      -webkit-box-flex: 1;
-      -webkit-flex: 1;
-          -ms-flex: 1;
-              flex: 1;
+      flex: 1;
       height: 100%;
       /*max-width: 40px;*/
       background: transparent;
-      -webkit-box-flex: 1;
-      -webkit-flex: 1;
-          -ms-flex: 1;
-              flex: 1;
+      flex: 1;
       display: inline;
       color: snow;
       text-align: center;
       line-height: 70px;
       margin-left: 10px;
       /*margin:auto;*/
-      -webkit-transition: all 200ms ease;
-              transition: all 200ms ease;
+      transition: all 200ms ease;
       position: relative;
       overflow: hidden; }
       nav ul li a {
@@ -111,20 +92,16 @@ nav {
   height: 100vh;
   background: transparent;
   position: relative;
-  -webkit-transition: all 1s ease;
-          transition: all 1s ease; }
+  transition: all 1s ease; }
   .page1 div {
     width: 100%;
     height: auto;
     position: relative; }
     .page1 div .cat_head {
-      -webkit-transition: all 1s ease;
-              transition: all 1s ease;
+      transition: all 1s ease;
       z-index: 100;
       position: relative;
-      -webkit-transform-origin: 50%  200%;
-          -ms-transform-origin: 50%  200%;
-              transform-origin: 50%  200%; }
+      transform-origin: 50%  200%; }
       .page1 div .cat_head img[id*=cathead] {
         position: absolute;
         top: 0;
@@ -133,24 +110,14 @@ nav {
         right: 0;
         margin: 250px auto; }
       .page1 div .cat_head #cathead_white {
-        -webkit-animation: graduallyShow 1s 1s 1 ease backwards;
-                animation: graduallyShow 1s 1s 1 ease backwards; }
+        animation: graduallyShow 1s 1s 1 ease backwards; }
       .page1 div .cat_head #cathead_color {
-        -webkit-animation: graduallyShow 3s 2s 1 cubic-bezier(0.35, -0.41, 0.51, 1.34) backwards;
-                animation: graduallyShow 3s 2s 1 cubic-bezier(0.35, -0.41, 0.51, 1.34) backwards; }
+        animation: graduallyShow 3s 2s 1 cubic-bezier(0.35, -0.41, 0.51, 1.34) backwards; }
       .page1 div .cat_head #cathead_sketch {
-        -webkit-animation: opacity 1s 1 ease backwards;
-                animation: opacity 1s 1 ease backwards; }
-@-webkit-keyframes opacity {
-  from {
-    opacity: 0; } }
+        animation: opacity 1s 1 ease backwards; }
 @keyframes opacity {
   from {
     opacity: 0; } }
-@-webkit-keyframes graduallyShow {
-  from {
-    opacity: 0;
-    -webkit-filter: blur(30px); } }
 @keyframes graduallyShow {
   from {
     opacity: 0;
@@ -165,55 +132,32 @@ nav {
       margin: auto;
       max-width: 800px; }
     .page1 div .ragdoll_title {
-      -webkit-transition: all 1s ease;
-              transition: all 1s ease;
+      transition: all 1s ease;
       width: 160%;
       margin-top: 120px;
       z-index: -1;
-      -webkit-animation: slideDown 800ms 5.7s 1 ease backwards;
-              animation: slideDown 800ms 5.7s 1 ease backwards; }
-@-webkit-keyframes slideDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate(0, -100%);
-            transform: translate(0, -100%); }
-  80% {
-    -webkit-transform: translate(0, 0%);
-            transform: translate(0, 0%); }
-  90% {
-    -webkit-transform: translate(0, -3%);
-            transform: translate(0, -3%); } }
+      animation: slideDown 800ms 5.7s 1 ease backwards; }
 @keyframes slideDown {
   from {
     opacity: 0;
-    -webkit-transform: translate(0, -100%);
-            transform: translate(0, -100%); }
+    transform: translate(0, -100%); }
   80% {
-    -webkit-transform: translate(0, 0%);
-            transform: translate(0, 0%); }
+    transform: translate(0, 0%); }
   90% {
-    -webkit-transform: translate(0, -3%);
-            transform: translate(0, -3%); } }
+    transform: translate(0, -3%); } }
     .page1 div .cattery_title {
       width: 34vw;
       z-index: -1; }
     .page1 div .frame {
-      -webkit-transition: all 1s ease;
-              transition: all 1s ease;
+      transition: all 1s ease;
       position: absolute;
-      -webkit-transform-origin: center 0%;
-          -ms-transform-origin: center 0%;
-              transform-origin: center 0%;
+      transform-origin: center 0%;
       display: block;
       width: 100%;
       height: 300px;
       overflow: hidden;
       margin-top: 490px;
-      -webkit-animation: step 3s 4s 1 ease backwards;
-              animation: step 3s 4s 1 ease backwards; }
-@-webkit-keyframes step {
-  from {
-    width: 0; } }
+      animation: step 3s 4s 1 ease backwards; }
 @keyframes step {
   from {
     width: 0; } }
@@ -222,11 +166,9 @@ nav {
   height: 100vh;
   background: transparent;
   padding-top: 0;
-  -webkit-transition: all 2s ease;
-          transition: all 2s ease; }
+  transition: all 2s ease; }
   .page2 .ragdoll_history {
-    -webkit-transition: all 1s ease;
-            transition: all 1s ease
+    transition: all 1s ease;
     /*transition:opacity 0.5s ease, transform, 1 ease;*/
     /*opacity:0;*/ }
   .page2 div article {
@@ -234,15 +176,14 @@ nav {
     border: 1px dotted #daa44e;
     max-width: 800px;
     margin: auto;
-    line-height: 1.4em;
+    line-height: 2em;
     padding: 2em;
-    padding-bottom: 200px; }
+    padding-bottom: 100px; }
     .page2 div article .bold {
       font-size: 2em;
       font-weight: 800; }
     .page2 div article span {
-      -webkit-transition: all 1s ease;
-              transition: all 1s ease;
+      transition: all 1s ease;
       opacity: 0;
       background: #daa44e; }
   .page2 div .illustration_intro {
@@ -260,11 +201,8 @@ nav {
       left: 0;
       right: 0;
       margin: auto;
-      -webkit-transform: translateY(150px);
-          -ms-transform: translateY(150px);
-              transform: translateY(150px);
-      -webkit-transition: all 1.5s ease;
-              transition: all 1.5s ease; }
+      transform: translateY(150px);
+      transition: all 1.5s ease; }
 
 .page3 {
   width: 100vw;
@@ -304,10 +242,9 @@ nav {
         color: #312821;
         border: 1px dotted #312821;
         padding: 1.1em;
-        top: 45vh;
+        top: 30vh;
         right: 30%;
-        -webkit-animation: sA 1s 1 ease;
-                animation: sA 1s 1 ease;
+        animation: sA 1s 1 ease;
         display: none; }
       .page3 div .leftDoor .arrowL {
         z-index: 300;
@@ -320,16 +257,11 @@ nav {
         bottom: 0;
         margin: auto;
         border: 1px solid #312821;
-        -webkit-transition: all 1s ease;
-                transition: all 1s ease;
+        transition: all 1s ease;
         border-bottom-color: transparent;
         border-right-color: transparent;
-        -webkit-transform: rotate(315deg);
-            -ms-transform: rotate(315deg);
-                transform: rotate(315deg);
-        -webkit-transform-origin: center center;
-            -ms-transform-origin: center center;
-                transform-origin: center center; }
+        transform: rotate(315deg);
+        transform-origin: center center; }
         .page3 div .leftDoor .arrowL:hover {
           cursor: pointer;
           border-width: 3px; }
@@ -345,9 +277,7 @@ nav {
         max-width: 250px;
         height: auto;
         position: absolute;
-        -webkit-transform: translate(-30%, -550px);
-            -ms-transform: translate(-30%, -550px);
-                transform: translate(-30%, -550px);
+        transform: translate(-30%, -550px);
         z-index: -1; }
       .page3 div .rightDoor .rotateBtn {
         width: 20px;
@@ -358,12 +288,10 @@ nav {
         position: absolute;
         top: 50vh;
         left: 20%;
-        -webkit-transition: background 300ms ease;
-                transition: background 300ms ease; }
+        transition: background 300ms ease; }
         .page3 div .rightDoor .rotateBtn:hover {
           background: rgba(255, 250, 250, 0.4);
-          -webkit-animation-play-state: paused;
-                  animation-play-state: paused; }
+          animation-play-state: paused; }
         .page3 div .rightDoor .rotateBtn .arrow {
           width: 10px;
           height: 10px;
@@ -373,34 +301,23 @@ nav {
           border: 1px solid rgba(255, 250, 250, 0.3);
           border-bottom-color: transparent;
           border-left-color: transparent;
-          -webkit-transform: rotate(135deg);
-              -ms-transform: rotate(135deg);
-                  transform: rotate(135deg)
+          transform: rotate(135deg);
           /*animation-play-state: paused;*/ }
 
 .arrow {
-  -webkit-animation: opacity 600ms infinite alternate linear;
-          animation: opacity 600ms infinite alternate linear; }
+  animation: opacity 600ms infinite alternate linear; }
 
 @keyframes opacity {
   from {
     opacity: 0; } }
 .rotateBtn {
-  -webkit-animation: spin 3s infinite linear;
-          animation: spin 3s infinite linear; }
-
-@-webkit-keyframes spin {
-  from {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
+  animation: spin 3s infinite linear; }
 
 @keyframes spin {
   from {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
+    transform: rotate(360deg); } }
 .leftDoor {
-  -webkit-transition: all 1s ease;
-          transition: all 1s ease; }
+  transition: all 1s ease; }
 
 .page4 {
   width: 100vw;
@@ -442,11 +359,10 @@ nav {
         color: #312821;
         border: 1px dotted #312821;
         padding: 1.1em;
-        top: 45vh;
+        top: 30vh;
         right: 30%;
         display: none;
-        -webkit-animation: sA 1s 1 ease;
-                animation: sA 1s 1 ease; }
+        animation: sA 1s 1 ease; }
       .page4 div .leftDoor .arrowL {
         z-index: 300;
         width: 10px;
@@ -458,16 +374,11 @@ nav {
         bottom: 0;
         margin: auto;
         border: 1px solid #312821;
-        -webkit-transition: all 1s ease;
-                transition: all 1s ease;
+        transition: all 1s ease;
         border-bottom-color: transparent;
         border-right-color: transparent;
-        -webkit-transform: rotate(315deg);
-            -ms-transform: rotate(315deg);
-                transform: rotate(315deg);
-        -webkit-transform-origin: center center;
-            -ms-transform-origin: center center;
-                transform-origin: center center; }
+        transform: rotate(315deg);
+        transform-origin: center center; }
         .page4 div .leftDoor .arrowL:hover {
           cursor: pointer;
           border-width: 3px; }
@@ -483,9 +394,7 @@ nav {
         max-width: 450px;
         height: auto;
         position: absolute;
-        -webkit-transform: translate(-46%, -550px);
-            -ms-transform: translate(-46%, -550px);
-                transform: translate(-46%, -550px);
+        transform: translate(-46%, -550px);
         z-index: -1; }
       .page4 div .rightDoor .rotateBtn {
         width: 20px;
@@ -496,12 +405,10 @@ nav {
         position: absolute;
         top: 50vh;
         left: 20%;
-        -webkit-transition: background 300ms ease;
-                transition: background 300ms ease; }
+        transition: background 300ms ease; }
         .page4 div .rightDoor .rotateBtn:hover {
           background: rgba(255, 250, 250, 0.4);
-          -webkit-animation-play-state: paused;
-                  animation-play-state: paused; }
+          animation-play-state: paused; }
       .page4 div .rightDoor .arrow {
         width: 10px;
         height: 10px;
@@ -511,9 +418,7 @@ nav {
         border: 1px solid rgba(255, 250, 250, 0.3);
         border-bottom-color: transparent;
         border-left-color: transparent;
-        -webkit-transform: rotate(135deg);
-            -ms-transform: rotate(135deg);
-                transform: rotate(135deg); }
+        transform: rotate(135deg); }
 
 .page5 {
   width: 100vw;
@@ -555,11 +460,10 @@ nav {
         color: #312821;
         border: 1px dotted #312821;
         padding: 1.1em;
-        top: 45vh;
+        top: 30vh;
         right: 30%;
         display: none;
-        -webkit-animation: sA 1s 1 ease;
-                animation: sA 1s 1 ease; }
+        animation: sA 1s 1 ease; }
       .page5 div .leftDoor .arrowL {
         z-index: 300;
         width: 10px;
@@ -571,16 +475,11 @@ nav {
         bottom: 0;
         margin: auto;
         border: 1px solid #312821;
-        -webkit-transition: all 1s ease;
-                transition: all 1s ease;
-        -webkit-transform-origin: center center;
-            -ms-transform-origin: center center;
-                transform-origin: center center;
+        transition: all 1s ease;
+        transform-origin: center center;
         border-bottom-color: transparent;
         border-right-color: transparent;
-        -webkit-transform: rotate(315deg);
-            -ms-transform: rotate(315deg);
-                transform: rotate(315deg); }
+        transform: rotate(315deg); }
         .page5 div .leftDoor .arrowL:hover {
           cursor: pointer;
           border-width: 3px; }
@@ -596,9 +495,7 @@ nav {
         max-width: 300px;
         height: auto;
         position: absolute;
-        -webkit-transform: translate(-36%, -550px);
-            -ms-transform: translate(-36%, -550px);
-                transform: translate(-36%, -550px);
+        transform: translate(-36%, -550px);
         z-index: -1; }
       .page5 div .rightDoor .rotateBtn {
         width: 20px;
@@ -609,12 +506,10 @@ nav {
         position: absolute;
         top: 50vh;
         left: 20%;
-        -webkit-transition: background 300ms ease;
-                transition: background 300ms ease; }
+        transition: background 300ms ease; }
         .page5 div .rightDoor .rotateBtn:hover {
           background: rgba(255, 250, 250, 0.4);
-          -webkit-animation-play-state: paused;
-                  animation-play-state: paused; }
+          animation-play-state: paused; }
       .page5 div .rightDoor .arrow {
         width: 10px;
         height: 10px;
@@ -624,9 +519,7 @@ nav {
         border: 1px solid rgba(255, 250, 250, 0.3);
         border-bottom-color: transparent;
         border-left-color: transparent;
-        -webkit-transform: rotate(135deg);
-            -ms-transform: rotate(135deg);
-                transform: rotate(135deg); }
+        transform: rotate(135deg); }
 
 .page6 {
   width: 100vw;
@@ -642,15 +535,13 @@ nav {
       margin: 30px;
       height: 80%;
       line-height: 2em;
-      -webkit-columns: 2;
-         -moz-columns: 2;
-              columns: 2;
-      -webkit-column-gap: 100px;
-         -moz-column-gap: 100px;
-              column-gap: 100px;
+      columns: 1;
+      column-gap: 100px;
       -webkit-column-width: 300px;
       -moz-column-width: 300px;
-      column-width: 300px; }
+      -o-column-width: 300px;
+      column-width: 300px;
+      z-index: 1000; }
       .page6 div .aboutme article img {
         display: block;
         margin: auto; }
@@ -665,9 +556,7 @@ nav {
       max-width: 300px;
       max-height: 300px;
       position: relative;
-      -webkit-transform: scale(1.4);
-          -ms-transform: scale(1.4);
-              transform: scale(1.4);
+      transform: scale(1.4);
       left: 70%;
       bottom: 15%; }
       .page6 div .aboutme .fullFamily img {
@@ -700,13 +589,74 @@ nav {
       text-align: center; }
 
 /*animation*/
-@-webkit-keyframes sA {
-  from {
-    opacity: 0;
-    -webkit-transform: rotate(30deg) translateY(-1000px) translateX(1000px);
-            transform: rotate(30deg) translateY(-1000px) translateX(1000px); } }
 @keyframes sA {
   from {
     opacity: 0;
-    -webkit-transform: rotate(30deg) translateY(-1000px) translateX(1000px);
-            transform: rotate(30deg) translateY(-1000px) translateX(1000px); } }
+    transform: rotate(30deg) translateY(-1000px) translateX(1000px); } }
+@media (max-width: 830px) {
+  body {
+    /*background: red;*/ }
+
+  .ragdoll_title {
+    /*background: green!important;*/
+    max-width: 500px !important;
+    transform: translate(0, 50px); }
+    .ragdoll_title img {
+      width: 100% !important; }
+
+  .cattery_title {
+    width: 300px !important;
+    margin-bottom: 300px; }
+
+  .fullFamily img {
+    opacity: 0.3; } }
+@media (max-width: 400px) {
+  body {
+    /*background: green;*/ }
+
+  .ragdoll_title {
+    /*background: green!important;*/
+    max-width: 300px !important;
+    transform: translate(0, 80px); }
+    .ragdoll_title img {
+      width: 100% !important; }
+
+  .illustration_intro {
+    display: none !important; }
+
+  .leftDoor img {
+    display: none !important; }
+  .leftDoor .video {
+    display: none !important;
+    /*border-color:red;			*/ }
+  .leftDoor .arrowL {
+    display: none !important; }
+  .leftDoor article {
+    display: block !important;
+    top: 10vh !important;
+    width: 155px !important;
+    right: 10% !important;
+    z-index: -10000 !important; }
+
+  .page2 article {
+    min-height: 100px !important;
+    padding-bottom: 20px !important; }
+
+  .page4 .colorpointPortrait {
+    width: 300px !important;
+    transform: translate(-50%, -550px) !important; }
+
+  .page6 .aboutme {
+    /*width: 100px !important;*/
+    /*background: red;*/
+    min-width: 100vw !important;
+    height: 800px !important;
+    padding: 0em !important;
+    /*columns :1 !important;*/
+    display: flex !important;
+    line-height: 0.4em !important; }
+    .page6 .aboutme article {
+      /*columns: 1 !important;*/
+      column-width: 300px !important; } }
+
+/*# sourceMappingURL=input.css.map */

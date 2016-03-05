@@ -1,0 +1,1203 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"trans",
+				"translateY"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"magi",
+				"margin"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"tran",
+				"translate"
+			],
+			[
+				"o",
+				"offsetTop"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"trn",
+				"translateY"
+			],
+			[
+				"qru",
+				"querySelectorAll"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"inner",
+				"innerWidth"
+			],
+			[
+				"wdi",
+				"width"
+			],
+			[
+				"in",
+				"inline-table"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"padin",
+				"padding-left"
+			],
+			[
+				"borders",
+				"border-style"
+			],
+			[
+				"des",
+				"descriptions"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"de",
+				"descriptions"
+			],
+			[
+				"d",
+				"descriptions"
+			],
+			[
+				"JS",
+				"json_encode"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"sco",
+				"scrollTop"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"s",
+				"source"
+			],
+			[
+				"new",
+				"newArr"
+			],
+			[
+				"g",
+				"graphics"
+			],
+			[
+				"ar",
+				"arguments"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"val",
+				"val"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"add",
+				"add_action"
+			],
+			[
+				"boo",
+				"bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"padi",
+				"padding"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"con",
+				"contDown"
+			],
+			[
+				"get",
+				"getTime"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"stag",
+				"stageH"
+			],
+			[
+				"sta",
+				"stage"
+			],
+			[
+				"scal",
+				"scaleX"
+			],
+			[
+				"ran",
+				"rand"
+			],
+			[
+				"u",
+				"update"
+			],
+			[
+				"stae",
+				"stageH"
+			],
+			[
+				"ce",
+				"createjs"
+			],
+			[
+				"stage",
+				"stageH"
+			],
+			[
+				"ra",
+				"rand"
+			],
+			[
+				"rand",
+				"randColor"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"va",
+				"validC"
+			],
+			[
+				"a",
+				"arguments"
+			],
+			[
+				"title",
+				"after_title"
+			],
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"mag",
+				"margin-right"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"p",
+				"primary-color"
+			],
+			[
+				"limi",
+				"limitation"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"log",
+				"log	console.log(...);"
+			],
+			[
+				"lo",
+				"logPersonName"
+			],
+			[
+				"c",
+				"cd	console.dir"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bak",
+				"backwards"
+			],
+			[
+				"ov",
+				"ov	overflow: ${1:hidden};"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pading",
+				"paddingC"
+			],
+			[
+				"of",
+				"offsetTop"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"mysqli",
+				"mysqli_connect"
+			],
+			[
+				"mysq",
+				"mysql_connect"
+			],
+			[
+				"margn",
+				"margin-bottom"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"wit",
+				"write"
+			],
+			[
+				"writ",
+				"wirteHead"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"it",
+				"item_quantity"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"rede",
+				"redirect"
+			],
+			[
+				"msg",
+				"mysqli_real_escape_string"
+			],
+			[
+				"esca",
+				"escape_string"
+			],
+			[
+				"produc",
+				"product"
+			],
+			[
+				"cn",
+				"connection"
+			],
+			[
+				"glo",
+				"global"
+			],
+			[
+				"defin",
+				"defined"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"conso",
+				"constructor"
+			],
+			[
+				"proto",
+				"protorype"
+			],
+			[
+				"eve",
+				"eventConfig"
+			],
+			[
+				"en",
+				"events"
+			],
+			[
+				"evet",
+				"events"
+			],
+			[
+				"inn",
+				"infinite"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"rules",
+				"rulesrequest"
+			],
+			[
+				"old",
+				"oldValue"
+			],
+			[
+				"Bmw",
+				"BmwCarShop"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"sell",
+				"sellCar"
+			],
+			[
+				"Ben",
+				"BenzCarShop"
+			],
+			[
+				"CarF",
+				"CatFactory"
+			],
+			[
+				"dre",
+				"driveBenz"
+			],
+			[
+				"Car",
+				"CarShop"
+			],
+			[
+				"backr",
+				"background"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"m",
+				"mih	min-height"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"cake",
+				"cakeName"
+			],
+			[
+				"cheee",
+				"Cheesecake"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jasonsheng/Desktop/ragdoll/index.html",
+			"settings":
+			{
+				"buffer_size": 8974,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jasonsheng/Desktop/ragdoll/css/input.scss",
+			"settings":
+			{
+				"buffer_size": 13177,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 5213,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jasonsheng/Sites/devgo/js/type.js",
+			"settings":
+			{
+				"buffer_size": 7016,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "set Syntax",
+		"selected_items":
+		[
+			[
+				"set Syntax",
+				"Set Syntax: SASS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"set Syntax: php",
+				"Set Syntax: PHP"
+			],
+			[
+				"set Syntax j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set Syntax css",
+				"Set Syntax: CSS"
+			],
+			[
+				"sy",
+				"Set Syntax: R"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"bea",
+				"Javascript Beautify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"npm install",
+			"npm -v",
+			"node",
+			"npm",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jasonsheng/Desktop/ragdoll/css",
+		"/Users/jasonsheng/Sites/resume/img",
+		"/Users/jasonsheng/Sites/resume/js"
+	],
+	"file_history":
+	[
+		"/Users/jasonsheng/Desktop/ragdoll/js/scroll.html",
+		"/Users/jasonsheng/Sites/Elearing/React_Practice/get_start/server.js",
+		"/Users/jasonsheng/Sites/Elearing/React_Practice/get_start/api/comments",
+		"/Users/jasonsheng/Sites/Elearing/React_Practice/get_start/client/index.html",
+		"/Users/jasonsheng/Sites/Elearing/React/Files/regform/server.js",
+		"/Users/jasonsheng/Sites/Elearing/React/Files 4/tasks/s/index.html",
+		"/Users/jasonsheng/Sites/Elearing/React/Files 4/tasks/server.js",
+		"/Users/jasonsheng/Sites/Elearing/React/Files 5/githubprofiles/client/index.html",
+		"/Users/jasonsheng/Sites/Elearing/React/Files 3/products/client/index.html",
+		"/Users/jasonsheng/Sites/Elearing/React/Files/regform/client/index.html",
+		"/Users/jasonsheng/Sites/Elearing/React/Files 2/nav/client/index.html",
+		"/Users/jasonsheng/Sites/Elearing/React/Files 2/nav/server.js",
+		"/Users/jasonsheng/Sites/resume/css/main.css",
+		"/Users/jasonsheng/Sites/p++/scrollparallax/index.html",
+		"/Users/jasonsheng/Sites/p++/resume/index.php",
+		"/Users/jasonsheng/Sites/resume/add.php",
+		"/Users/jasonsheng/Desktop/Intermedoate Algorithm Scripting.html",
+		"/Users/jasonsheng/Desktop/http:::jj.minmingsheng.design:",
+		"/Users/jasonsheng/Google Drive/winterRun/白贺翔 /【八】模拟jquery底层代码实现1(copy).html",
+		"/Users/jasonsheng/Downloads/createParticle.html",
+		"/Users/jasonsheng/Google Drive/demoPractice/pointy-slider/practice/index.html",
+		"/Users/jasonsheng/Google Drive/demoPractice/pointy-slider/practice/css/style.scss",
+		"/Users/jasonsheng/Google Drive/demoPractice/pointy-slider/practice/css/style.css",
+		"/Users/jasonsheng/Google Drive/demoPractice/pointy-slider/practice/css/style.css.map",
+		"/Users/jasonsheng/Google Drive/demoPractice/pointy-slider/pointy-slider/partials/_variables.scss",
+		"/Users/jasonsheng/Google Drive/demoPractice/pointy-slider/pointy-slider/index.html",
+		"/Users/jasonsheng/Google Drive/demoPractice/template/css/main.scss",
+		"/Users/jasonsheng/Desktop/tt.html",
+		"/Users/jasonsheng/Google Drive/demoPractice/extenable-nav/scss/style.css",
+		"/Users/jasonsheng/Google Drive/demoPractice/extenable-nav/scss/style.scss",
+		"/Users/jasonsheng/Downloads/plugin-sample 2/myplugin_widget.php",
+		"/Users/jasonsheng/Downloads/plugin-sample 2/init.php",
+		"/Users/jasonsheng/Desktop/twentyfifteen/footer.php",
+		"/private/var/folders/n8/_yz602197m915m2x75g1l5nm0000gn/T/fa864da4-fe6d-4998-8fc2-1ae035e73a64/public_html/JJ/wp-content/plugins/plugin-sample/plugin-sample.php",
+		"/private/var/folders/n8/_yz602197m915m2x75g1l5nm0000gn/T/fa864da4-fe6d-4998-8fc2-1ae035e73a64/public_html/JJ/wp-content/plugins/plugin-sample/myplugin_widget.php",
+		"/private/var/folders/n8/_yz602197m915m2x75g1l5nm0000gn/T/fa864da4-fe6d-4998-8fc2-1ae035e73a64/public_html/JJ/wp-content/plugins/plugin-sample/init.php",
+		"/Users/jasonsheng/Downloads/readxml.php",
+		"/Users/jasonsheng/Google Drive/CLASS - Interactive Coding/TERM2-Interactive Coding/week02/drawing/drawing.html",
+		"/Users/jasonsheng/Desktop/Text.html",
+		"/Users/jasonsheng/Desktop/winterRun/personal test/framwwork.html",
+		"/private/var/folders/n8/_yz602197m915m2x75g1l5nm0000gn/T/fa864da4-fe6d-4998-8fc2-1ae035e73a64/public_html/JJ/wp-content/themes/new-child/footer.php",
+		"/private/var/folders/n8/_yz602197m915m2x75g1l5nm0000gn/T/fa864da4-fe6d-4998-8fc2-1ae035e73a64/public_html/JJ/wp-content/themes/new-child/index.php",
+		"/private/var/folders/n8/_yz602197m915m2x75g1l5nm0000gn/T/fa864da4-fe6d-4998-8fc2-1ae035e73a64/public_html/JJ/wp-content/themes/new-child/page.php",
+		"/Users/jasonsheng/Downloads/JJ/wp-content/themes/jj/style.css",
+		"/Users/jasonsheng/Downloads/JJ/wp-content/jj/style.css",
+		"/Users/jasonsheng/Downloads/jquery-1.12.0 (3).js",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/wp-hooks/examples/add_action_example.php",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/twentyfourteen/functions.php",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/wp-hooks/examples/remove_filter_example.php",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/wp-hooks/functions.php",
+		"/Users/jasonsheng/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/wp-hooks/style.css",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/wp-hooks/examples/list_hooks.php",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/wp-hooks/examples/hook_debugging_functions.php",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/wp-hooks/examples/export_wp_filter.php",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/twentyfifteen/page-custom.php",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/twentyfifteen-child-theme/page-custom.php",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/twentyfifteen/inc/custom-header.php",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/twentyfifteen/content-none.php",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/new_theme/sass/style.scss",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/new_theme/style.css",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/new_theme/readme.txt",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/new_theme/function.php",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/twentyfifteen/index.php",
+		"/Users/jasonsheng/Downloads/treehouse-hueman-genesis/style.css",
+		"/Users/jasonsheng/Sites/lw/wp-content/themes/index.php",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/themes/zerif-lite-child/functions.php",
+		"/Users/jasonsheng/Desktop/winterRun/personal test/unrepeate.html",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/themes/zerif-lite-child/header.php",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/themes/zerif-lite-child/footer.php",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/themes/zerif-lite-child/rtl.css",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/themes/zerif-lite/rtl.css",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/themes/twentyfifteen-child/function.php",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/themes/twentyfifteen/404.php",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/themes/twentyfifteen-child/page.php",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/themes/twentyfifteen-child/style.css",
+		"/Users/jasonsheng/Downloads/jquery-1.12.0.js",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/plugins/contact-widget/js/script.js",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/plugins/Jason/jj.php",
+		"/Users/jasonsheng/Sites/wordpress/index.php",
+		"/Users/jasonsheng/Sites/wordpress/wp-config-sample.php",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/plugins/contact-widget/mailer.php",
+		"/Users/jasonsheng/Sites/wordpress/wp-admin/plugins.php",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/plugins/contact-widget/contact-widget.php",
+		"/Users/jasonsheng/Sites/wordpress/wp-content/plugins/contact-widget/class.contact.widget.php",
+		"/Users/jasonsheng/Google Drive/project/DevGo/devgo/js/type.js",
+		"/Users/jasonsheng/Google Drive/project/DevGo/devgo/js/notebook.js",
+		"/Users/jasonsheng/Sites/devgo/database/_Devgo_ (1).sql",
+		"/Users/jasonsheng/Google Drive/PreferencesSetting_sublime.js",
+		"/Users/jasonsheng/Desktop/ragdaoll/images/nav_logo.png",
+		"/Users/jasonsheng/Google Drive/CLASS - Web Design/myStyle.css",
+		"/Users/jasonsheng/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jasonsheng/Library/Application Support/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/Users/jasonsheng/Library/Application Support/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
+		"/Users/jasonsheng/Google Drive/CLASS - Web Design/week11/sass/sass/sass/style.css",
+		"/Users/jasonsheng/Google Drive/CLASS - Web Design/week11/sass/sass/sass/style.scss",
+		"/Users/jasonsheng/Desktop/ragdaoll/css/main.css",
+		"/Users/jasonsheng/Desktop/ragdaoll/css/input.scss",
+		"/Users/jasonsheng/Sites/devgo/css/main.css",
+		"/Users/jasonsheng/Sites/devgo/dashboard.php",
+		"/Users/jasonsheng/Sites/devgo/type.php",
+		"/Users/jasonsheng/Sites/devgo/js/type.js",
+		"/Users/jasonsheng/Sites/devgo/js/dashboard.js",
+		"/Users/jasonsheng/Sites/devgo/Notebook.php",
+		"/Users/jasonsheng/Sites/devgo/index.php",
+		"/Users/jasonsheng/Sites/phpE/shoutbox/css/style.css",
+		"/Users/jasonsheng/Sites/phpE/index.php",
+		"/Users/jasonsheng/Desktop/winterRun/node/simpleserver/package.json",
+		"/Users/jasonsheng/Desktop/winterRun/node/simpleserver/server.js",
+		"/Users/jasonsheng/Desktop/winterRun/node/simpleserver/index.html",
+		"/Users/jasonsheng/Desktop/winterRun/node/simpleserver/page2.html",
+		"/Users/jasonsheng/Desktop/winterRun/node/simpleserver/page3.html",
+		"/Users/jasonsheng/Desktop/winterRun/node/app.js",
+		"/Applications/MAMP/htdocs/phpE/public/index.php",
+		"/Applications/MAMP/htdocs/phpE/resources/templates/front/top_nav.php",
+		"/Applications/MAMP/htdocs/phpE/public/login.php",
+		"/Applications/MAMP/htdocs/phpE/public/contact.php",
+		"/Applications/MAMP/htdocs/phpE/public/shop.php",
+		"/Applications/MAMP/htdocs/phpE/public/item.php",
+		"/Applications/MAMP/htdocs/phpE/resources/templates/front/footer.php",
+		"/Applications/MAMP/htdocs/phpE/resources/templates/front/slider.php",
+		"/Applications/MAMP/htdocs/phpE/public/css/style.css",
+		"/Applications/MAMP/htdocs/phpE/resources/templates/front/header.php",
+		"/Applications/MAMP/htdocs/phpE/resources/templates/front/side_nav.php",
+		"/Users/jasonsheng/Desktop/winterRun/app(A+N)/server.js",
+		"/Users/jasonsheng/Desktop/winterRun/app(A+N)/index.html",
+		"/Users/jasonsheng/Desktop/winterRun/app(A+N)/core.js",
+		"/Users/jasonsheng/Desktop/winterRun/nodejs/package.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/jasonsheng/Sites/lw",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"right: 17%;",
+			"article",
+			"page2.scrollHeight;",
+			"height",
+			"frame",
+			"cat_head",
+			"handleCommentSubmit",
+			"componentDidMount",
+			"loadUserData",
+			"state",
+			"Profile",
+			"banner",
+			"0",
+			"i",
+			"banner",
+			"skillSet",
+			"edus",
+			"border",
+			"100%",
+			"width:100%",
+			"bar",
+			"<li>",
+			"title",
+			"1",
+			"banner",
+			"\"",
+			"circle",
+			"i",
+			"this",
+			"canvas",
+			"color",
+			". ",
+			"44",
+			"Things",
+			"i",
+			"Things",
+			"map",
+			"btn.btn-block",
+			".btn.btn-block",
+			"btn.btn",
+			"btn",
+			"img",
+			"img-responsive",
+			"img",
+			"red",
+			"300px",
+			"h1",
+			".getTime()",
+			"tween",
+			"scrollTop =",
+			"scrollTop=",
+			"scrollTop",
+			"display",
+			"apply_filters",
+			"widget",
+			"apply_filters",
+			"x",
+			";\n",
+			"ppp",
+			"particle",
+			"g",
+			"pg",
+			"particle",
+			"container",
+			"tg",
+			"1",
+			"stage.add",
+			"container",
+			"canvas",
+			"register",
+			"1",
+			"head",
+			"add_action",
+			"hook",
+			"add_filter( 'the-content",
+			"add_filter( 'init",
+			"add_action( 'init",
+			"add_filter( 'init",
+			"add_filter( 'wp_title",
+			"local",
+			"dynmaic",
+			"getClass",
+			"rnotwhite",
+			"addClass",
+			"fn",
+			"module",
+			"Delete",
+			"edit",
+			"top",
+			"my",
+			"alert",
+			"zot",
+			"rand",
+			"=",
+			"= ",
+			"100px",
+			"10px",
+			"images",
+			"auto",
+			"div",
+			"a",
+			"	\n",
+			"log",
+			"backwards",
+			"images",
+			"div",
+			"></",
+			"submit",
+			"fontsubmit",
+			"Submit",
+			"cont",
+			"couts",
+			"conts",
+			"counts",
+			"Counts",
+			"2s",
+			"300ms",
+			"control_head",
+			"user",
+			"\"message\"",
+			"user",
+			"pm",
+			"h4",
+			"typeFontNote",
+			"colourSaved",
+			"wirteHead",
+			"path",
+			"shengminming2011"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jasonsheng/Desktop/ragdoll/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5156,
+								5174
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Galea.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1943.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jasonsheng/Desktop/ragdoll/css/input.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3213,
+								3213
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Galea.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3555.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3969,
+								3969
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Galea.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2618.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/jasonsheng/Sites/devgo/js/type.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4203,
+								4209
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Galea.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2266.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "personalWeb.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"h",
+				"examples/hook_debugging_functions.php"
+			],
+			[
+				"custom",
+				"twentyfifteen/page-custom.php"
+			],
+			[
+				"header",
+				"twentyfifteen/inc/custom-header.php"
+			],
+			[
+				"",
+				"css/part3(include_p4_p5).css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 127.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

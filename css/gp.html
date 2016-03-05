@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+// 	****************************************************************************
+// *               How to get rid of repeated things in an array              *
+// ****************************************************************************
+		var a  = [1,2,2,3,4,5,67,2,3,4];
+		console.log(a);
+
+// 		****************************************************************************
+// *                              feature of OBJ                              *
+// ****************************************************************************
+
+	var obj = {
+
+	}
+	console.log(obj);	
+
+// 	****************************************************************************
+// *                          so each prop is unique                          *
+// ****************************************************************************
+	
+	// for (var i = 0; i <a.length; i++) {
+	// 	var aEl = a[i];
+	// 	console.log(aEl);
+	// 	obj[aEl] = true;
+	// };
+	// var newArr = [];
+	// for(var prop  in obj){
+	// 	newArr.push(parseInt(prop));
+	// }
+	// console.log(newArr);
+
+// 	****************************************************************************
+// *                          make it to be a method                          *
+// ****************************************************************************
+	
+	function change(a){
+		for (var i = 0; i <a.length; i++) {
+			var aEl = a[i];
+			// console.log(aEl);
+			obj[aEl] = true;
+		};
+		var newArr = [];
+		for(var prop  in obj){
+			newArr.push(prop);
+		}
+		return newArr;
+	}
+
+	var jason = [1,3,3,4,444,4,4,4,44,4,4,4,44];
+	var jj = ["jason", "jjaosn", "jason"];
+
+	var newjj = change(jj);
+	console.log("newjj: ", newjj);
+
+		// var a = [1,2,3,45,6,7,8,1,3,5,7,8,9];
+		// console.log(a);
+
+		// var obj = {
+
+		// } //each key is unique 
+		// for (var i = 0; i < a.length; i++) {
+		// 	var elInA = a[i];
+		// 	console.log(elInA);
+		// 	obj[elInA] = true;
+		// };
+		// var newArr = [];
+		// for(var prop in obj){
+		// 	newArr.push(parseInt(prop));
+		// }
+		// console.log(newArr);
+		// console.log(obj);
+
+
+		// function getRidOfRepeatedStuff(a){
+		// 	for (var i = 0; i < a.length; i++) {
+		// 		var elInA = a[i];
+		// 		console.log(elInA);
+		// 		obj[elInA] = true;
+		// 	};
+		// 	var newArr = [];
+		// 	for(var prop in obj){
+		// 		newArr.push(parseInt(prop));
+		// 	}
+		// 	return newArr;
+		// }
+		// var jason = [1,1,1,1,1,1,3,3,3,3,4,4,5,6,78];
+		// var newJason = getRidOfRepeatedStuff(jason);
+		// console.log("newJason", newJason);
+	</script>
+</body>
+</html>
